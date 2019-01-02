@@ -19,15 +19,12 @@ const routes: Routes = [
   { path: 'admired-me', loadChildren: './pages/tabs/menu-options/admired-me/admired-me.module#AdmiredMePageModule' },
   { path: 'admired-works', loadChildren: './pages/tabs/menu-options/admired-works/admired-works.module#AdmiredWorksPageModule' },
   { path: 'blocked-people', loadChildren: './pages/tabs/menu-options/blocked-people/blocked-people.module#BlockedPeoplePageModule' },
-  { path: 'my-subscriptions', loadChildren: `./pages/tabs/menu-options/my-subscriptions/
-    my-subscriptions.module#MySubscriptionsPageModule` },
+  { path: 'my-subscriptions', loadChildren: './pages/tabs/menu-options/my-subscriptions/my-subscriptions.module#MySubscriptionsPageModule' },
 
   // Configurations
   { path: 'configurations', loadChildren: './pages/tabs/menu-options/configurations/configurations.module#ConfigurationsPageModule' },
-  { path: 'delete-account', loadChildren: `./pages/tabs/menu-options/configurations-options/
-    delete-account/delete-account.module#DeleteAccountPageModule` },
-  { path: 'change-password', loadChildren: `./pages/tabs/menu-options/configurations-options/
-    change-password/change-password.module#ChangePasswordPageModule` },
+  { path: 'delete-account', loadChildren: `./pages/tabs/menu-options/configurations-options/delete-account/delete-account.module#DeleteAccountPageModule` },
+  { path: 'change-password', loadChildren: `./pages/tabs/menu-options/configurations-options/change-password/change-password.module#ChangePasswordPageModule` },
 
   // Home
   { path: 'search', loadChildren: './pages/tabs/home-options/search/search.module#SearchPageModule' },
@@ -38,11 +35,9 @@ const routes: Routes = [
   { path: 'work-details', loadChildren: './pages/details/work-details/work-details.module#WorkDetailsPageModule' },
   { path: 'profile-details', loadChildren: './pages/details/profile-details/profile-details.module#ProfileDetailsPageModule' },
   { path: 'admirations', loadChildren: './pages/details/admirations/admirations.module#AdmirationsPageModule' },
-  { path: 'work-collection-details', loadChildren: `./pages/details/work-collection-details/
-    work-collection-details.module#WorkCollectionDetailsPageModule` },
+  { path: 'work-collection-details', loadChildren: `./pages/details/work-collection-details/work-collection-details.module#WorkCollectionDetailsPageModule` },
   { path: 'delation', loadChildren: './pages/details/delation/delation.module#DelationPageModule' },
-  { path: 'special-collection-details', loadChildren: `./pages/details/special-collection-details/
-    special-collection-details.module#SpecialCollectionDetailsPageModule` }
+  { path: 'special-collection-details', loadChildren: `./pages/details/special-collection-details/special-collection-details.module#SpecialCollectionDetailsPageModule` }
 ];
 
 @NgModule({
